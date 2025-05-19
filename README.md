@@ -1,2 +1,2 @@
-# sentiment-playgrounf
+# sentiment-playground
 experimenting with sentiment analysis
