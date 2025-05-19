@@ -11,3 +11,12 @@ This is a simple Flask-based web application that performs **sentiment analysis*
 ```bash
 git clone https://github.com/yourusername/sentiment-analyzer.git
 cd sentiment-analyzer
+
+python -m venv venv
+source venv/bin/activate    # On Windows use: venv\Scripts\activate
+
+pip install flask textblob nltk
+
+python app.py
+
+http://127.0.0.1:5000
